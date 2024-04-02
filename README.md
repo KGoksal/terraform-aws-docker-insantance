@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "kadirgoksal/docker-instance/aws"
-    key_name = "kadirgoksal-2024"
+    source = "AbdulkadirGoksal/docker-instance/aws"
+    key_name = "your_key_name"
 }
 
